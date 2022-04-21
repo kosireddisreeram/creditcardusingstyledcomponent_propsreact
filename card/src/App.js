@@ -1,14 +1,13 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
-import {Button} from "./components/Button.styled"
+import Form from './components/Form';
+import CreditCard from './components/CreditCard';
+
 function App() {
   return (
-    <>
-     <Button border={"dashed"}>Dashed Button</Button>
-      <Button >Default Button</Button>
-      <Button color={"blue"} border={"none"}>Link Button</Button>
-      <Button backgroundColor={"blue"} color={"white"}>Primary Button</Button>
-      <Button border={"none"} >Text Button</Button>
-    </>
+    <div className="App">
+      <Form/>      
+    </div>
   );
 }
 
