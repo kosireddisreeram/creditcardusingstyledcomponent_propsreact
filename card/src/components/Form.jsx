@@ -6,10 +6,11 @@ import "./CreditCard.styles.css"
 const Form = () => {
 
     const [Data,setData]=useState({})
-    const form=useRef()
+    const form=useRef();
 
     const handelSubmit=(e)=>{
         e.preventDefault();
+        
         form.current.reset();  
     }
 
